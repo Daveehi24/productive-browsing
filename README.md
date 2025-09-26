@@ -21,14 +21,14 @@ This project uses:
 
 ## 📂 Project Structure  
 focus-lock-extension/
-│── manifest.json # Extension configuration
-│── background.js # Handles blocking & redirects
-│── content.js # Detects keywords in URLs
-│── block.html # Motivational message page
-│── block.css # Styling for block page
-│── icons/ # Extension icons
+│── manifest.json # Extension configuration, 
+── background.js # Handles blocking & redirects
+── content.js # Detects keywords in URLs
+── block.html # Motivational message page
+── block.css # Styling for block page
+── icons/ # Extension icons
 
-## 🚀 Installation  
+ 🚀 Installation  
 1. Clone this repository:  
    ```bash
    git clone https://github.com/YOUR-USERNAME/focus-lock-extension.git
