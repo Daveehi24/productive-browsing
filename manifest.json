@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Redirect to Bible — Focus Lock",
+  "version": "1.0",
+  "description": "If an explicit site or keyword is detected, redirect to bible.com.",
+  "permissions": [
+    "storage",
+    "tabs",
+    "webNavigation"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "service_worker.js"
+  },
+  "options_page": "options.html",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Focus Lock"
+  }
+}
